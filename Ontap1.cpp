@@ -40,8 +40,8 @@ int main()
     int A[100];
     int n;
     Nhap_Mang(A,n);
-    cout<<"Gia tri lon nhat trong mang C la: "<< Max(A,n);
-    cout<<"Gia tri nho nhat trong mang C la: "<< Min(A,n);
+    cout<<"Gia tri lon nhat trong mang la: "<< Max(A,n);
+    cout<<"Gia tri nho nhat trong mang la: "<< Min(A,n);
     system("pause");
     return 0;
 }
